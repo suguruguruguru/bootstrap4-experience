@@ -30,116 +30,119 @@
                 </li>
             </ul>
             <div class="float-right">
-                <span class="text-light">&nbsp;&nbsp;&nbsp;fixed-topクラスでヘッダー固定 3系からあるの知らなかった</span>
+                <span class="text-light">&nbsp;&nbsp;&nbsp;fixed-topクラスでヘッダー固定(3系からあるの知らなかった)</span>
             </div>
         </div>
     </nav>
-    <div class="p-5">
-        <div class="p-3 pt-5">
-            <h3>infoクラスの色がこっそり変わっててかわいい</h3>
-        </div>
-        <div class="alert alert-info p-3" role="alert">
-            <h4 class="alert-heading">個人的にスゲー好き。</h4>
-            <p>まあ色はカスタム次第でどうにでもなるんだけど、デフォルトがこっそり変わっててかわいい。</p>
-            <hr>
-            <div class="text-right">
-                <button type="button" class="btn btn-info">ボタンも</button>
-                <button type="button" class="btn btn-outline-info">いい色</button>
-            </div>
-        </div>
-    </div>
 
-    <div class="p-5">
-        <div class="p-3">
-            <h3>flex対応してかわいい</h3>
-            <p>d-flexクラスでdisplay: flexのスタイルを付与できるようになった。均等配置や各要素のスペーシング決めなら、従来のグリッドシステムで事足りるのに、ちゃんと追加されててかわいい。</p>
-        </div>
-        <div class="d-flex flex-row p-3">
-            <div class="p-2 bg-light">
-                <p>左から積む場合。</p>
+    <div class="container">
+        <div class="pt-5 pb-5">
+            <div class="p-3 pt-5">
+                <h3>infoクラスの色がこっそり変わっててかわいい</h3>
             </div>
-            <div class="p-2 bg-secondary text-white">
-                <p>d-flex flex-rowクラスを含むdivに、子要素として各コンテンツのdivをつらつら記載するだけ。</p>
-            </div>
-        </div>
-
-
-        <div class="d-flex flex-row p-3">
-            <div class="p-2 bg-secondary text-white">
-                <p>子要素3つの場合。</p>
-            </div>
-            <img class="w-25 h-25 rounded" src="https://www.pakutaso.com/shared/img/thumb/NISSIHIGEPENGIN_TP_V4.jpg">
-            <div class="p-2 bg-light">
-                <p>←ペンギン</p>
-            </div>
-        </div>
-
-        <div class="d-flex flex-row-reverse p-3">
-            <div class="p-2 bg-light">
-                <p>右から積む場合。</p>
-            </div>
-            <div class="p-2 bg-secondary text-white">
-                <p>親要素のクラスをd-flex flex-row-reverseにするだけ。</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="p-5">
-        <div class="p-3">
-            <h3>やっとカードコンポーネントができてかわいい</h3>
-            <p>一昨年くらいから盛り上がってたカードデザインのテンプレができた。マジで今更感はあるけど、まあキレイで無難で良い。</p>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="card m-3" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.pakutaso.com/shared/img/thumb/moroIMG_1906_TP_V4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">わんこです</h5>
-                        <p class="card-text">筆者は犬が苦手です。</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card m-3">
-                    <div class="card-body">
-                        <h5 class="card-title">REAL MOFUMOFU</h5>
-                        <p class="card-text">公式のリファレンスにそこそこ応用例が載っててカスタムも楽。</p>
-                        <p class="card-text">
-                            <small class="text-muted">この犬はまぁかわいい許す。</small>
-                        </p>
-                    </div>
-                    <img class="card-img-bottom" src="https://www.pakutaso.com/shared/img/thumb/170222-049_TP_V4.jpg" alt="Card image cap">
+            <div class="alert alert-info p-3" role="alert">
+                <h4 class="alert-heading">個人的にスゲー好き。</h4>
+                <p>まあ色はカスタム次第でどうにでもなるんだけど、デフォルトがこっそり変わっててかわいい。</p>
+                <hr>
+                <div class="text-right">
+                    <button type="button" class="btn btn-info">ボタンも</button>
+                    <button type="button" class="btn btn-outline-info">いい色</button>
                 </div>
             </div>
         </div>
 
-        <div class="card text-center m-3">
-            <div class="card-header">これもよくあるやつね</div>
-            <div class="card-body">
-                <h5 class="card-title">HEADER</h5>
-                <p class="card-text">中央揃えとかのalign系は従来ののクラスでOK。</p>
-                <a href="#" class="btn btn-info">リンクとかね</a>
+        <div class="pt-5 pb-5">
+            <div class="p-3">
+                <h3>flex対応してかわいい</h3>
+                <p>d-flexクラスでdisplay: flexのスタイルを付与できるようになった。均等配置や各要素のスペーシング決めなら、従来のグリッドシステムで事足りるのに、ちゃんと流行りのFlexboxが追加されててかわいい。なのでクラス指定だけでかなり柔軟にレイアウトは凝れる。</p>
             </div>
-            <div class="card-footer text-muted">
-                2 days ago
+            <div class="d-flex flex-row p-3">
+                <div class="p-2 bg-light">
+                    <p>左から積む場合。</p>
+                </div>
+                <div class="p-2 bg-secondary text-white">
+                    <p>d-flex flex-rowクラスを含むdivに、子要素として各コンテンツのdivをつらつら記載するだけ。</p>
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-row p-3">
+                <div class="p-2 bg-secondary text-white">
+                    <p>子要素3つの場合。</p>
+                </div>
+                <img class="w-25 h-25 rounded" src="https://www.pakutaso.com/shared/img/thumb/NISSIHIGEPENGIN_TP_V4.jpg">
+                <div class="p-2 bg-light">
+                    <p>←ペンギン</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row-reverse p-3">
+                <div class="p-2 bg-light">
+                    <p>右から積む場合。</p>
+                </div>
+                <div class="p-2 bg-secondary text-white">
+                    <p>親要素のクラスをd-flex flex-row-reverseにするだけ。</p>
+                </div>
             </div>
         </div>
 
-        <div class="card text-white m-3">
-            <img class="card-img" src="https://www.pakutaso.com/shared/img/thumb/MORIMG_3173_TP_V.jpg" alt="Card image">
-            <div class="card-img-overlay">
-                <h5 class="card-title">OVERLAY</h5>
-                <p class="card-text">画像をかぶせてフォトジェニ感アップ。</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+        <div class="pt-5 pb-5">
+            <div class="p-3">
+                <h3>やっとカードコンポーネントができてかわいい</h3>
+                <p>一昨年くらいから盛り上がってたカードデザインのテンプレができた。マジで今更感はあるけど、まあキレイで無難で良い。</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.pakutaso.com/shared/img/thumb/moroIMG_1906_TP_V4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">わんこです</h5>
+                            <p class="card-text">筆者は犬が苦手です。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <h5 class="card-title">REAL MOFUMOFU</h5>
+                            <p class="card-text">公式のリファレンスにそこそこ応用例が載っててカスタムも楽。</p>
+                            <p class="card-text">
+                                <small class="text-muted">この犬はまぁかわいい許す。</small>
+                            </p>
+                        </div>
+                        <img class="card-img-bottom" src="https://www.pakutaso.com/shared/img/thumb/170222-049_TP_V4.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-center m-3">
+                <div class="card-header">これもよくあるやつね</div>
+                <div class="card-body">
+                    <h5 class="card-title">HEADER</h5>
+                    <p class="card-text">中央揃えとかのalign系は従来ののクラスでOK。</p>
+                    <a href="#" class="btn btn-info">リンクとかね</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </div>
+
+            <div class="card text-white m-3">
+                <img class="card-img" src="https://www.pakutaso.com/shared/img/thumb/MORIMG_3173_TP_V.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">OVERLAY</h5>
+                    <p class="card-text">画像をかぶせてフォトジェニ感アップ。</p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="p-5">
-        <div class="p-3">
-            <h3>カルーセルも簡単にできてかわいい</h3>
-            <p>これもここ数年でよくみるやつ。ファッション系のポータルサイトとかフォトジェニサブカルパーソナルサイトならマスト。</p>
+        <div class="pt-5 pb-5">
+            <div class="p-3">
+                <h3>カルーセルも簡単にできてかわいい</h3>
+                <p>これもここ数年でよくみるやつ。ファッション系のポータルサイトとかフォトジェニサブカルパーソナルサイトならマスト。</p>
+            </div>
         </div>
     </div>
     <div class="pb-5">
@@ -164,31 +167,42 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
-
-    <div class="p-5">
-        <div class="p-3">
-            <h3>クラス指定で細かいCSSが制御できて痒いところに手が届いちゃうかわいい</h3>
-            <p>margin、paddingを指定するクラス("m-{数値}"、"p-{数値}")がすげー便利。"pt-3"だと"padding-top:1rem"だし、"mb-4"だと"margin-bottom:1.5rem"指定になる。</p>
-            <p>他にも、display属性、widthやれheightやれの制御もクラス指定でできる。どれもこれも5段階だけだけど。</p>
-        </div>
-        <div class="p-3">
-            <h5>パディング</h5>
-            <button type="button" class="btn btn-info">Button(no padding class)</button>
-            <button type="button" class="btn btn-info p-1">Button(p-1)</button>
-            <button type="button" class="btn btn-info p-2">Button(p-2)</button>
-            <button type="button" class="btn btn-info p-4">Button(p-4)</button>
-        </div>
-
-        <div class="p-3">
-            <h5>マージン</h5>
-            <button type="button" class="btn btn-info">Button(no margin class)</button>
-            <button type="button" class="btn btn-info m-1">Button(m-1)</button>
-            <button type="button" class="btn btn-info m-2">Button(m-2)</button>
-            <button type="button" class="btn btn-info m-4">Button(m-4)</button>
+        <div class="text-center">
+            <p class="p-2 text-secondary">(画像左右クリックで切り替え)</p>
         </div>
     </div>
+    <div class="container">
+        <div class="pt-5 pb-5">
+            <div class="p-3">
+                <h3>クラス指定で細かいCSSが制御できて痒いところに手が届いちゃうかわいい</h3>
+                <p>margin、paddingを指定するクラス("m-{数値}"、"p-{数値}")がすげー便利。"pt-3"だと"padding-top:1rem"だし、"mb-4"だと"margin-bottom:1.5rem"指定になる。</p>
+                <p>他にも、display属性、widthやれheightやれの制御もクラス指定でできる。どれもこれも5段階だけだけど。</p>
+            </div>
+            <div class="p-3">
+                <h5>パディング</h5>
+                <button type="button" class="btn btn-info">Button(no padding class)</button>
+                <br>
+                <button type="button" class="btn btn-info p-1">Button(p-1)</button>
+                <br>
+                <button type="button" class="btn btn-info p-2">Button(p-2)</button>
+                <br>
+                <button type="button" class="btn btn-info p-4">Button(p-4)</button>
+                <br>
+            </div>
 
+            <div class="p-3">
+                <h5>マージン</h5>
+                <button type="button" class="btn btn-info">Button(no margin class)</button>
+                <br>
+                <button type="button" class="btn btn-info m-1">Button(m-1)</button>
+                <br>
+                <button type="button" class="btn btn-info m-2">Button(m-2)</button>
+                <br>
+                <button type="button" class="btn btn-info m-4">Button(m-4)</button>
+                <br>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
